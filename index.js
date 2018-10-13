@@ -30,5 +30,9 @@ var funkyFunction = function() {
 var theFunk = function funkyFunction(){
     return "FUNKY!";
 }
-
+var funkyFunction = function() { // funkyFunction
+  return function() { // funkyFunction()
+    return "FUNKY!" // funkyFunction()()
+  }
+}
 
