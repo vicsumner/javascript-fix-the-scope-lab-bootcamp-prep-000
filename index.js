@@ -31,8 +31,6 @@ var theFunk = function funkyFunction(){
   return function innerfunkyFunction(){
     return "FUNKY!"
   }
-  
-  
 }
 console.log(funkyFunction())
 
